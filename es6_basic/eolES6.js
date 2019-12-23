@@ -7,3 +7,11 @@ let hudi = {
 }
 
 console.log(hudi);
+
+const person={
+    name:"이석곤",
+    getName(){
+        return this.name;
+    }
+}
+console.log(person.getName());

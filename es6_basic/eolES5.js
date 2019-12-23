@@ -7,3 +7,11 @@ var hudi={
 }
 
 console.log(hudi);
+
+var person={
+    name: "이석곤",
+    getName: function(){
+        return this.name;
+    }
+}
+console.log(person.getName());
