@@ -6,3 +6,11 @@ const hudi ={
 
 let {name,job} = hudi; //비구조화 할당
 console.log(name, job);
+
+function printSkills({skills}) {
+    skills.map((skill) => {
+        console.log(skill);
+    });
+}
+
+printSkills(hudi);
