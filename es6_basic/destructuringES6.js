@@ -14,3 +14,8 @@ function printSkills({skills}) {
 }
 
 printSkills(hudi);
+
+const languages = ["JavaScript", "Python", "Java", "C#"];
+const [first, second, third] = languages;
+
+console.log(first, second, third);
