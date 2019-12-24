@@ -9,6 +9,6 @@ class Person {
     }
 }
 
-var seokgon = new Person("이석곤", "풀스텍 개발자")
+let seokgon = new Person("이석곤", "풀스텍 개발자")
 
 seokgon.print();
