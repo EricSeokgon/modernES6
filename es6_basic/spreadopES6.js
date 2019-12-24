@@ -9,3 +9,7 @@ const a1 = [1, 2, 3, 4, 5];
 const b1 = [...a1].reverse();
 
 console.log(`a: ${a1}\nb: ${b1}`);
+
+const a2 = [1, 2, 3, 4, 5, 6];
+let [first, second, ...rest] = a2;
+console.log(first, second, rest);
